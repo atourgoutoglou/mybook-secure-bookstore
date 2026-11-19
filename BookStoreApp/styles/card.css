@@ -1,0 +1,76 @@
+/* Καρτα */
+.product-card {
+  background-color: #fff;
+  border: 1px solid #8B5E3C;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.12);
+}
+
+.product-card img {
+  width:  100%;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.product-card h3 {
+  color: #3E432E;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.rating i {
+  color: #C2B280;
+  margin: 0 2px;
+}
+
+.price {
+  color: #2B271C;
+  font-weight: 600;
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.add-cart {
+  background-color: #7C8363;
+  color: #F5F1E8;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-cart:hover {
+  background-color: #8B5E3C;
+}
+
+
+/* Επιλογή Τροποποίησης Βιβλίου για τους Υπαλλήλους */
+.modify-book {
+  background-color: #F5F1E8;
+  color: #7C8363;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+.modify-book:hover {  
+  border: 1px solid #7C8363;
+}
+
+

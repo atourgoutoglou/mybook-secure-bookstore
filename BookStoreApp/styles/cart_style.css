@@ -1,0 +1,167 @@
+.cart-container {
+  width: 90%;
+  max-width: 900px;
+  margin: 50px auto;
+  background: #f9f5ef;
+  background-color: #f9f5ef;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+}
+
+h2.cart-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+  color: #333;
+}
+
+/* =========================
+   Αντικείμενα στο Καλάθι
+========================= */
+.cart-items {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #f9f9f9;
+  padding: 10px 20px;
+  border-radius: 12px;
+}
+
+.cart-item img {
+  width: 80px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.item-info {
+  flex: 1;
+  margin-left: 20px;
+}
+
+.item-title {
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-bottom: 6px;
+  color: #222;
+}
+
+.item-price {
+  color: #555;
+  font-size: 1rem;
+}
+
+/* =========================
+   Πλήκτρα Ποσότητας
+========================= */
+.quantity-control {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #eaeaea;
+  padding: 5px 10px;
+  border-radius: 8px;
+  width: 103px;
+}
+
+.quantity-control button {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.quantity-control button:hover {
+  background: #0056b3;
+}
+
+.quantity-control span {
+  min-width: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* =========================
+   Κουμπί Αφαίρεσης
+========================= */
+.remove-btn {
+  background: #ff5252;
+  border: none;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 15px;
+  margin-left: 25px;
+}
+
+.remove-btn:hover {
+  background: #ff3b3b;
+}
+
+/* =========================
+   Περίληψη Καλαθιού
+========================= */
+.cart-summary {
+  margin-top: 30px;
+  text-align: right;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.cart-actions {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.btn {
+  display: inline-block;
+  background: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: 0.3s;
+  text-align: center;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #0056b3;
+}
+
+/* =========================
+   Μήνυμα Άδειου Καλαθιού
+========================= */
+.empty {
+  text-align: center;
+  color: #777;
+  font-size: 1.2rem;
+  margin-top: 40px;
+}
+
+
+header {
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  background-color: #ac815f;
+  padding-bottom: 150px;
+}

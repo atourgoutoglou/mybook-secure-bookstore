@@ -1,0 +1,53 @@
+body, html{
+    background-color: #ac815f;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+  height: 100%;   
+}
+
+header .logout-container{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ac815f;
+  color: #2e2b23;
+  margin: 100px;
+}
+
+header .logout-con {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 40px;
+  background-color: #f9f5ef;
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  width: 30%;
+  max-width: 950px;
+  min-height: 300px;
+  padding: 40px;
+}
+
+header .logout-container h2, header .logout-container span{
+  color: #2e2b23; 
+  font-size: 32px; 
+  text-align: center; 
+  
+}
+
+#logout-btn{
+    background: #3E432E;
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  border-radius: 6px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 20px;
+}

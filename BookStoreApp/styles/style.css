@@ -1,0 +1,299 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+/* Αρχική Οθόνη Index.html */
+/* Search Bar Αρχικής Οθόνης */
+.main-header .header .search{
+    padding: 12px 100px;
+    width: 420px;
+    max-width: 100%;
+    
+    font-size: 16px;
+}
+
+.search-box i{
+    color: antiquewhite;
+    position: absolute;
+
+    background-color: #294936;
+    padding: 15px;
+    
+}
+
+header{
+    background: #ac815f;
+    width: 100%;
+    height: 90vh;
+}
+
+.main-header{   
+    width: 90%;
+    margin: auto;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.main-header h5{
+    font-size: 22px;
+    color: #2C3424;
+    font-weight: 550;
+}
+
+.main-header h2{
+    font-size: 48px;
+    width: 340px;
+    margin-top: 10px;
+    margin-bottom: 24px;
+    color: #2B271C;
+}
+
+.main-header p{
+    margin-bottom: 60px;
+}
+
+.main-header .btn{
+    background: #2C3424;
+    border: 1px solid #2C3424;
+    font-size: 24px;
+    color: blanchedalmond;
+    font-weight: 400;
+    padding: 12px 30px;
+    border-radius: 50px;
+    transition: all .5s;
+}
+
+.main-header .btn:hover{
+    color: #2C3424;
+    background-color: blanchedalmond;
+}
+
+.main-header .main-img{
+    width: 600px;
+    height: auto;
+    border-radius: 800px;
+}
+
+
+
+/* Section για Δημοφιλή Βιβλία*/
+
+/* Επικεφαλίδες */
+.viral-products{
+  background-color: #abb584;
+  padding: 60px 80px;
+  text-align: center;
+}
+
+.viral-product-header h2 , .product-header h2{
+  color: #2B271C;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.viral-product-header p, .product-header h2{
+  color: #4F4A3C;
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+
+
+/* Grid που περιεχει ολες τις καρτες*/
+.viral-product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+/* Section για Βιβλία*/
+.products{
+  background-color: #EDE7D9;
+  padding: 60px 80px;
+  text-align: center;
+}
+
+
+
+/* SignUp_LogIn.html Modal*/
+/* Κουμπί που ανοίγει το modal */
+.open-modal-btn {
+  background: #3E432E;
+  color: #fff;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.modal, .signup-modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0; top: 0;
+  width: 100%; height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  justify-content: center; align-items: center;
+}
+
+.modal-content, .signup-modal .modal-content {
+  background: #fff;
+  border-radius: 10px;
+  width: 70%;
+  max-width: 900px;
+  padding: 30px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.close-btn, .signup-modal .close-btn {
+  position: absolute;
+  right: 20px;
+  top: 15px;
+  font-size: 28px;
+  color: #444;
+  cursor: pointer;
+}
+
+.modal-columns {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.signup-section {
+  flex: 1;
+  border-right: 1px solid #ddd;
+  padding-right: 30px;
+}
+.signup-section h3, .signup-modal .modal-content h3, .login-section h3 {
+  color: #3E432E;
+}
+
+.signup-section h4{
+  list-style: disc;
+}
+
+.signup-section ul {
+  list-style: disc;
+  margin: 15px 0 20px 20px;
+}
+.create-account-btn {
+  background: #3E432E;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.login-section {
+  flex: 1;
+}
+
+.login-form input , .signup-form input, .login-form .role-select{
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.login-btn, .signup-btn {
+  background: #3E432E;
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  border-radius: 6px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.or {
+  text-align: center;
+  margin: 15px 0;
+  font-size: 14px;
+  color: #666;
+}
+.social-login {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.social-login button {
+  border: 1px solid #ccc;
+  background: #fff;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+}
+
+/* SignUp Form*/
+/* Signup Modal */
+
+.modal h3 {
+  color: #3E432E;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#signup-modal .signup-form input,
+#signup-modal .signup-form select, .role-extra-field input, .book-details-container .book-info input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Κουμπί Πίσω */
+.back-btn {
+  background: none;
+  border: none;
+  color: #3E432E;
+  margin-bottom: 10px;
+  position: absolute;
+  left: 20px;
+  top: 15px;
+  font-size: 28px;
+  color: #444;
+  cursor: pointer;
+
+}
+.back-btn:hover {
+  color: #000;
+}
+
+
+/* ΣΤΥΛ ΓΙΑ ΤΑ ERRORS */
+.error-message {
+  padding: 12px;
+  background-color: #ddd;
+  border-radius: 6px;
+  font-size: 16px;
+  color: red;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+

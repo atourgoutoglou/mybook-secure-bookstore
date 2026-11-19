@@ -1,0 +1,121 @@
+header{
+    background: #ac815f;
+    width: 100%;
+    height: 130vh;
+}
+
+header .book-details-container img {
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+header .book-details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0px;
+  padding: 10px;
+  background-color: #ac815f;
+  color: #2e2b23;
+  
+}
+
+header .book-details-container h2{
+  color: #f9f5ef; 
+  font-size: 32px; 
+  text-align: center; 
+  padding-top: 40px;
+  
+}
+
+.book-columns {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f5ef;
+  border-radius: 20px;      
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  width: 75%;                
+  max-width: 950px;          
+  margin: 60px auto;         
+  padding: 60px;             
+  min-height: 600px;         
+  align-items: flex-start;
+}
+
+.book-image-section {
+  flex: 1;
+  border-right: 1px solid #ddd;
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+  justify-content: center;
+  padding-right: 30px;   
+}
+
+.image-actions {
+  display: flex;
+  flex-direction: column;  
+  align-items: center;
+  gap: 10px;
+  width: 60%; 
+}
+
+.book-image-section img {
+  width: 250px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1); 
+}
+
+.book-info-section {
+  flex: 1;
+}
+
+.book-info-section input{
+  width: 80%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.book-info-section textarea {
+  width: 85%;
+  padding: 10px;
+  margin: 8px 0 16px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: vertical;
+  min-height: 120px; 
+}
+
+#upload-btn, #remove-btn {
+  background: #3E432E;
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  border-radius: 6px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.book-details-container .book-info input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.book-info-section #add-to-cart-btn{
+    margin: 8px 0;
+    padding: 10px;
+    
+}
+
+

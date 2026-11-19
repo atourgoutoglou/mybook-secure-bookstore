@@ -1,0 +1,116 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+    height: 80px;
+    background-color: #3E432E;
+    padding: 0 40px;
+}
+
+.navbar .logo{
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    
+}
+
+.navbar h1{
+    color: #DADED8;
+    font-size: 30px;
+    font-weight: 500;
+    padding: 0px 20px;
+}
+
+.navmenu{
+    display: flex;
+    align-items: center;
+    z-index: 1000;
+}
+
+.navmenu li{
+    display: inline-block;   
+}
+
+.navmenu li a{
+    color: #EDE7D9;
+    margin-right: 20px;
+    padding: 0px 30px;
+    font-size: 18px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.navmenu li a:hover,  .navbar .nav-actions a:hover{
+  color: #B8C4A7;
+}
+
+.navbar .nav-actions a{
+    color: antiquewhite;
+    font-size: 23px;
+    transition: color 0.3s ease;    
+}
+
+
+.navbar .nav-actions i{
+    padding: 0 10px;
+}
+
+.nav-actions {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    position: relative;
+}
+
+
+
+
+.nav-actions {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+/* Το μικρό popup αναζήτησης */
+.search-popup {
+    display: none;
+    position: absolute;
+    top: 120%; /* κάτω από το εικονίδιο */
+    right: 2rem; /* λίγο πιο δεξιά */
+    background: white;
+    padding: 0.5rem 0.8rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    align-items: center;
+    gap: 0.3rem;
+    z-index: 999;
+    animation: fadeIn 0.2s ease-in-out;
+}
+
+.search-popup.active {
+    display: flex;
+}
+
+.search-popup input {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 0.4rem 0.7rem;
+    font-size: 0.95rem;
+    width: 180px;
+    outline: none;
+}
+
+.search-popup button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+/* Optional μικρό animation */
+/*@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-5px); }
+    to { opacity: 1; transform: translateY(0); }
+}*/
