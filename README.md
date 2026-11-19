@@ -144,7 +144,7 @@ Private keys and certificates are intentionally **not** included in this reposit
 ## Team
 
 - **Alexandra Tourgoutoglou**: [GitHub](https://github.com/atourgoutoglou) · [LinkedIn](https://www.linkedin.com/in/alexandra-tourgoutoglou/)
-- **Dionysia**
+- **Dionysia**: [GitHub](https://github.com/dionysiadrakou)
 
 Developed for the *Information Systems Security* course, Department of Informatics, University of Piraeus.
 
